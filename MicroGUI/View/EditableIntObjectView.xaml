@@ -16,7 +16,7 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
             <Label Content="{Binding Name}" />
-            <xctk:IntegerUpDown Grid.Row="1" Value="{Binding CurrentValue}" VerticalAlignment="Center" HorizontalAlignment="Left" Width="4cm" Margin="5 0 0 0 " ></xctk:IntegerUpDown>
+            <xctk:IntegerUpDown Grid.Row="1" Value="{Binding CurrentValue,Delay=500}" VerticalAlignment="Center" HorizontalAlignment="Left" Width="4cm" Margin="5 0 0 0 " ></xctk:IntegerUpDown>
             
         </Grid>
     </GroupBox>
